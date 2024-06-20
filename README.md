@@ -1,6 +1,8 @@
 # Automatic Tracking and Charging Desktop
 
-We create a automatic tracking and charging desktop. The approach was to use the STM32 U575ZI development board as the main control board, connected to an HC05 Bluetooth module and NEMA17 stepper motors to control the position of the wireless charging pad. A camera was used to monitor the phone's position, and a computer processed the camera footage using the YOLO v8 model to identify the phone's location. The location information was then transmitted to the STM32 development board via Bluetooth, which drove the motors to move the wireless charging pad under the phone to achieve active tracking and charging functionality.
+We create a automatic tracking and charging desktop. 
+<img src = './success_charge.jpg'>
+The approach was to use the STM32 U575ZI development board as the main control board, connected to an HC05 Bluetooth module and NEMA17 stepper motors to control the position of the wireless charging pad. A camera was used to monitor the phone's position, and a computer processed the camera footage using the YOLO v8 model to identify the phone's location. The location information was then transmitted to the STM32 development board via Bluetooth, which drove the motors to move the wireless charging pad under the phone to achieve active tracking and charging functionality.
 This is a project fro MakeNTU 2024. We need to integrate hardware and software to develop an innovative product within a 24-hour hackathon.
 The whole idea comes from this [video](https://www.youtube.com/watch?v=JrasYJDyg4Q)
 
