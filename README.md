@@ -21,3 +21,4 @@ Our presentation slides [link](https://docs.google.com/presentation/d/15X92Lmv90
 We use YOLO v8 provided by ultralytics to detect the cellphone on the desktop and get the position of the cellphone. Since the camera resolution is quite bad. We use hundred of photos take by the camera and label the photos by Roboflow to fine tune the YOLO model.
 
 ### Others
+
